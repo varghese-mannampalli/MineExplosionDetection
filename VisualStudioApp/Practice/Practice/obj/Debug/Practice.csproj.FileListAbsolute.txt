@@ -1,0 +1,10 @@
+C:\Users\Varghese\Documents\Visual Studio Stuff\Practice\Practice\bin\Debug\Practice.exe.config
+C:\Users\Varghese\Documents\Visual Studio Stuff\Practice\Practice\bin\Debug\Practice.exe
+C:\Users\Varghese\Documents\Visual Studio Stuff\Practice\Practice\bin\Debug\Practice.pdb
+C:\Users\Varghese\Documents\Visual Studio Stuff\Practice\Practice\obj\Debug\Practice.csprojAssemblyReference.cache
+C:\Users\Varghese\Documents\Visual Studio Stuff\Practice\Practice\obj\Debug\Practice.Form1.resources
+C:\Users\Varghese\Documents\Visual Studio Stuff\Practice\Practice\obj\Debug\Practice.Properties.Resources.resources
+C:\Users\Varghese\Documents\Visual Studio Stuff\Practice\Practice\obj\Debug\Practice.csproj.GenerateResource.cache
+C:\Users\Varghese\Documents\Visual Studio Stuff\Practice\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Varghese\Documents\Visual Studio Stuff\Practice\Practice\obj\Debug\Practice.exe
+C:\Users\Varghese\Documents\Visual Studio Stuff\Practice\Practice\obj\Debug\Practice.pdb

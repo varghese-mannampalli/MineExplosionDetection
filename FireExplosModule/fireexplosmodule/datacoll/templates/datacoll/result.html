@@ -1,0 +1,21 @@
+{% extends "datacoll/header.html" %}
+
+{% block content %}
+
+	<h5>ID &nbsp &nbsp &nbsp O2 &nbsp &nbsp &nbsp &nbsp CO &nbsp &nbsp &nbsp &nbsp
+	CH4 &nbsp &nbsp &nbsp CO2 &nbsp &nbsp &nbsp &nbsp H2 &nbsp &nbsp  &nbsp &nbsp &nbsp
+	N2 &nbsp &nbsp &nbsp &nbsp &nbsp C2H4 &nbsp &nbsp &nbsp &nbsp &nbsp Date</h5>
+
+	{% for datasett in object_list %}
+		<p>{{ datasett.id }} &nbsp &nbsp &nbsp
+		{{ datasett.o2 }} &nbsp &nbsp &nbsp
+		{{ datasett.co }} &nbsp &nbsp &nbsp
+		{{ datasett.ch4 }} &nbsp &nbsp &nbsp
+		{{ datasett.co2 }} &nbsp &nbsp &nbsp
+		{{ datasett.h2 }} &nbsp &nbsp &nbsp
+		{{ datasett.n2 }} &nbsp &nbsp &nbsp
+		{{ datasett.c2h4 }} &nbsp &nbsp &nbsp
+		{{ datasett.date }}</p>
+	{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,115 @@
+{% extends "datacoll/header.html" %}
+
+{% block content %}
+<h1> Determine Fire Status and Explosibility in Sealed Off Areas in Mines </h1>
+
+<div class = "boxed">
+
+<h3> &nbsp Enter gas percentages </h3>
+<br>
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <br>
+    <br>
+    <input type="submit" name="showbutton" value="         Show         " /> 
+    <br>
+    <input type="submit" name="addbutton" value="Add To Database" />
+</form>
+
+<form action ="" method="post">
+	{% csrf_token %}
+	{{ form1 }}
+	<input type="submit" name="erasebutton" value="         Reset         " />
+</form>	
+<br>
+</div>
+<br>
+
+<div class = "boxed">
+<table style="width:100%">
+<tr>
+<th> Graham's Ratio </th>
+<th> Young's Ratio </th>
+<th> CO/CO2 Ratio </th>
+<th> JTR Ratio </th>
+<th> C/H Ratio </th>
+</tr>
+<tr>
+<td>{% if graham %}{{graham}}{% endif %}</td>
+<td>{% if young %}{{young}}{% endif %}</td>
+<td>{% if coco2 %}{{coco2}}{% endif %}</td>
+<td>{% if jtr %}{{jtr}}{% endif %}</td>
+<td>{% if chra %}{{chra}}{% endif %}</td>
+</tr>
+<tr>
+<td>{% if graham %}{{grahamm}}{% endif %}</td>
+<td>{% if young %}{{youngm}}{% endif %}</td>
+<td>{% if coco2 %}{{coco2m}}{% endif %}</td>
+<td>{% if jtr %}{{jtrm}}{% endif %}</td>
+<td>{% if chra %}{{chram}}{% endif %}</td>
+</tr>
+</table>
+
+<br>
+
+<label><h3> &nbsp Explosibility</h3></label>
+<label>{{explosm}}</label>
+
+{% load static %}
+{% if a1flag %}
+	<audio autoplay> <source src="{% static "datacoll/alarm1.mp3" %}" type="audio/mpeg"></audio>
+{% endif %}
+{% if a2flag %}
+	<audio autoplay> <source src="{% static "datacoll/alarm1.mp3" %}" type="audio/mpeg"></audio>
+	<label> Perform Nitrogen Infusion </label>
+{% endif %}
+
+<br>
+
+</div>
+<br>
+
+<div class = "boxed">
+<h3> &nbsp Database actions </h3>
+
+
+<form action ="" method="post">
+	{% csrf_token %}
+	{{ form2 }}
+	<input type="submit" name="displaybutton" value="Display Database" />
+</form>	
+
+<form action ="" method="post">
+	{% csrf_token %}
+	{{ form6 }}
+	<input type="submit" name="editbutton" value="    Edit Database   " />
+</form>	
+
+<form action ="" method="post">
+	{% csrf_token %}
+	{{ form5 }}
+	<input type="submit" name="serialinputbutton" value="Serial Input From Server" />
+</form>	
+
+<br>
+</div>
+<br>
+
+<div class="boxed">
+<h3> &nbsp Data Analysis </h3>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form3 }}
+    <input type="submit" name="analysisbutton" value="Ellicott's Extension" /> 
+</form>
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form4 }}
+    <input type="submit" name="trendbutton" value="Explosibility Prediction" /> 
+</form>
+</div>
+
+{% endblock %}

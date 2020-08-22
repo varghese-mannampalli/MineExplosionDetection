@@ -1,0 +1,10 @@
+C:\Users\Varghese\Documents\Visual Studio Stuff\GasRatioCalculator\GasRatioCalculator\obj\Debug\GasRatioCalculator.csprojAssemblyReference.cache
+C:\Users\Varghese\Documents\Visual Studio Stuff\GasRatioCalculator\GasRatioCalculator\obj\Debug\GasRatioCalculator.Form1.resources
+C:\Users\Varghese\Documents\Visual Studio Stuff\GasRatioCalculator\GasRatioCalculator\obj\Debug\GasRatioCalculator.Properties.Resources.resources
+C:\Users\Varghese\Documents\Visual Studio Stuff\GasRatioCalculator\GasRatioCalculator\obj\Debug\GasRatioCalculator.csproj.GenerateResource.cache
+C:\Users\Varghese\Documents\Visual Studio Stuff\GasRatioCalculator\GasRatioCalculator\obj\Debug\GasRatioCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Varghese\Documents\Visual Studio Stuff\GasRatioCalculator\GasRatioCalculator\bin\Debug\GasRatioCalculator.exe.config
+C:\Users\Varghese\Documents\Visual Studio Stuff\GasRatioCalculator\GasRatioCalculator\bin\Debug\GasRatioCalculator.exe
+C:\Users\Varghese\Documents\Visual Studio Stuff\GasRatioCalculator\GasRatioCalculator\bin\Debug\GasRatioCalculator.pdb
+C:\Users\Varghese\Documents\Visual Studio Stuff\GasRatioCalculator\GasRatioCalculator\obj\Debug\GasRatioCalculator.exe
+C:\Users\Varghese\Documents\Visual Studio Stuff\GasRatioCalculator\GasRatioCalculator\obj\Debug\GasRatioCalculator.pdb
